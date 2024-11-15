@@ -1,0 +1,49 @@
+.cursos, .canais{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.cursos h2, .canais h2{
+    margin-left: 5%;
+}
+.curso1 h4, .curso1 p, .curso2 h4, .curso2 p, .curso3 h4, .curso3 p{
+    margin: 2%;
+}
+.canal1 h4, .canal1 p, .canal2 h4, .canal2 p, .canal3 h4, .canal3 p{
+    margin: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.curso1, .canal1{
+    position: absolute;
+    left: 8%;
+    margin-top: 6%;
+}
+.curso2, .canal2{
+    position: absolute;
+    left: 38.5%;
+    margin-top: 6%;
+}
+.curso3, .canal3{
+    position: absolute;
+    left: 69%;
+    margin-top: 6%;
+}
+.cursos::after{
+    content: "";
+    width: 75%;
+    height: 1px;
+    display: block;
+    background-color: black;
+    margin: 25% auto;
+    margin-bottom: 2%;
+}
+.canais{
+    margin-bottom: 25%;
+}
+.curso1:hover, .curso2:hover, .curso3:hover, .canal1:hover, .canal2:hover, .canal3:hover{
+    border: 3px solid black;
+    padding: 1%;
+}

@@ -1,0 +1,83 @@
+
+.corpo{
+    width: 100%;
+    text-align: center;
+    
+}
+.negociar img{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+.como{
+    margin-right: 10%;
+    margin-top: 50%;
+    margin-bottom: 10%;
+}
+.como p{
+    text-align: justify;
+}
+.carrossel{
+    height: 540px;
+    width: 960px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.teste{
+    width: 70px;
+    height: 17px;
+    border: 2px solid aliceblue;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}
+.teste:hover{
+    background-color: aliceblue;
+}
+input{
+    display: none;
+}
+.galeria{
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+.imagens{
+    width: 16.66%;
+    transition: .6s;
+}
+.imagens img{
+    width: 100%;
+    height: 100%;
+}
+#botao1:checked ~.img1{
+    margin-left: 0;
+}
+#botao2:checked ~ .img1{
+    margin-left: -16.66%;
+}
+#botao3:checked ~ .img1{
+    margin-left: -33.32%;
+}
+#botao4:checked ~ .img1{
+    margin-left: -49.98%;
+}
+#botao5:checked ~ .img1{
+    margin-left: -66.64%;
+}
+#botao6:checked ~ .img1{
+    margin-left: -83.3%;
+}

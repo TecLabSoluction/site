@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+.cabecalho{
+    background-color: black;
+    width: 100%;
+    height: 147px;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    width: 5%;
+    margin: 1% 5%; 
+}
+.menu{
+    position: absolute;
+    margin-left: 20%;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid blueviolet;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+.menu a:hover{
+    color: blueviolet;
+    border: 2px solid aliceblue;
+    transition: 10ms;
+}
+.menu .atual{
+    color: blueviolet;
+    border: 2px solid aliceblue;
+}
+.rodape{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: aliceblue;
+}
+.rodape ul{
+    display: flex;
+    flex-direction: row;
+}
+.parte1{
+    position: absolute;
+    left: 3%;
+}
+.parte2{
+    position: absolute;
+    left: 36%;
+}
+.parte3{
+    position: absolute;
+    left: 69%;
+}
+.rodape h3{
+    font-size: 23px;
+    
+}
+.rodape i{
+    margin-right: 10px;
+    color: aliceblue;
+}
+.rodape input{
+    width: 60%;
+    height: 22px;
+    padding: 3px;
+    border-radius: 5px;
+}
+#coment{
+    margin-top: 3%;
+    font-family: Arial;
+    padding: 3px;
+}
