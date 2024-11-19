@@ -1,5 +1,5 @@
 let cont = 1;
-document.getElementById("botoes1").checked = true;
+document.getElementById("botao1").checked = true;
 
 setIntervalo(function(){
   proxImg();
@@ -10,5 +10,5 @@ function proxImg(){
   if(cont>6){
     cont=1;
   }
-  document.getElementById("botoes"+cont).checked = true;
+  document.getElementById("botao"+cont).checked = true;
 }
