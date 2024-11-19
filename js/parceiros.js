@@ -3,7 +3,7 @@ document.getElementById("botao1").checked = true;
 
 setIntervalo(function(){
   proxImg();
-}, 10000)
+}, 1000)
 
 function proxImg(){
   cont++;
