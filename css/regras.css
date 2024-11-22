@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho{
+    background-color: black;
+    width: 100%;
+    height: 147px;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo{
+    width: 5%;
+    margin: 2px 40px;
+  }
+  
+ .menu a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid blueviolet;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+.menu a:hover{
+    color: blueviolet;
+    border: 2px solid aliceblue;
+    transition: 10ms;
+}
+.menu .atual{
+    color: blueviolet;
+    border: 2px solid aliceblue;
+}
+  main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+  }
+  
+  .Categorias {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .main {
+    flex: 3;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+    .rodape{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        color: aliceblue;
+        box-shadow: 0 -0 400000px rgba(0, 0, 0, 1);
+    }
+    .rodape ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .parte1{
+        position: absolute;
+        left: 3%;
+    }
+    .parte2{
+        position: absolute;
+        left: 36%;
+    }
+    .parte3{
+        position: absolute;
+        left: 69%;
+    }
+    .rodape h3{
+        font-size: 23px;
+    
+    }
+    .rodape i{
+        margin-right: 10px;
+        color: aliceblue;
+    }
+    .rodape input{
+        width: 279px;
+        height: 22px;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #coment{
+        margin-top: 10px;
+        font-family: Arial;
+        padding: 3px;
+    }
