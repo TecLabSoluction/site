@@ -9,11 +9,9 @@
         <link rel="stylesheet" href="./css/reserva.css">
         <link rel="icon" href="./img/logo.jpg">
          <script>
-            function valida (f) {
-                if (f.acordo.value=="") {
-                    alert ("É necessário responder se concorda com a coleta dos dados.");
-                    return false;
-                }
+            function valida (event) { 
+                var checkbox5 = document.getElementById('idcheckbox5'); 
+                if (!checkbox5.checked) {alert("É necessário responder se concorda com a coleta dos dados."); event.preventDefault();}
             }
         </script>
     </head>
@@ -85,7 +83,7 @@
 
                             <h4>Você concorda com a coleta e tratamento dos dados, conforme as políticas da Tec Lab Solutions?</h4>
                             <label id="idcheckbox5">Sim</label>
-                            <input type="checkbox" id="idcheckbox5" name="acordo" value="sim">
+                            <input type="checkbox" id="idcheckbox5" name="acordo" value="sim">                            
                         </div>
                 </div>
                         <br>
