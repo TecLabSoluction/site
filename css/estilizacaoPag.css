@@ -85,7 +85,7 @@ width:100%;
     width: 300px;
 }
 
-img{
+.conteudo > img{
     border: 2px solid black;
     border-radius: 10px;
     background-color: bisque;
