@@ -43,8 +43,10 @@ body{
 }
 
 .contad > img{
+    position: absolute;
+    left:0;
 width:100%;
- z-index: -1000000000;
+ z-index: -1;
 }
 .conteudo{
     height: 100%;
