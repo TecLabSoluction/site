@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="./css/cabecalho.css">
         <link rel="stylesheet" href="./css/reserva.css">
         <link rel="icon" href="./img/logo.jpg">
+         <script>
+            function valida (f) {
+                if (f.acordo.value=="") {
+                    alert ("É necessário responder se concorda com a coleta dos dados.");
+                    return false;
+                }
+            }
+        </script>
     </head>
     <body>
         <header class="cabecalho">
@@ -74,6 +82,10 @@
                             <br>
                             <label for="idradio2">Não.</label>
                             <input type="radio" id="idradio2" name="idradio">
+
+                            <h4>Você concorda com a coleta e tratamento dos dados, conforme as políticas da Tec Lab Solutions?</h4>
+                            <label id="idradio3" name="acordo">Sim</label>
+                            <input type="radio" id="idradio3" name="idradio">
                         </div>
                 </div>
                         <br>
