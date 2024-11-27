@@ -1,6 +1,5 @@
 let cont = 1;
 document.getElementById("botao1").checked = true;
-console.log("Funciona");
 
 setInterval(function(){
   proxImg();
