@@ -2,7 +2,7 @@ let cont = 1;
 document.getElementById("botao1").checked = true;
 console.log("Funciona");
 
-setIntervalo(function(){
+setInterval(function(){
   proxImg();
 }, 7000)
 
